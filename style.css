@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:  0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: rgb(217, 241, 181);
+  padding: 15px 40px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+main{
+  width: 80%;
+  margin: 40px auto;
+}
+button[type="submit"]{
+background-color: #2980b9;
+}

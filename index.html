@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Expense tracker</title>
+</head>
+<body>
+  <nav>
+  <div>Expense Tracker</div>
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+  </ul>
+</nav>
+<main>
+<h2 style="padding: 3px;">Padam's Expense Tracker</h2>
+<form  class="form">
+  <label for="amount">Amount</label>
+  <input type="number" id="amount">
+
+  <label for="category">Category</label>
+  <select name="category" id="category">
+    <option value="food">food</option>
+    <option value="transport">transport</option>
+    <option value="entertainment">entertainment</option>
+    <option value="Shopping">Shopping</option>
+  </select>
+
+  <label for="description">Description</label>
+  <input type="text" id="description">
+
+  <button type="submit">submit</button>
+</form>
+<table>
+ <thead>
+  <tr>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Amount</th>
+    <th>Action</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+    <td>Food</td>
+    <td> Mitho Khana</td>
+    <td>50</td>
+    <td>
+      <button type="submit">Delete me:</button>
+    </td>
+  </tr>
+ </tbody>
+</table>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
